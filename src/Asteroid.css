@@ -1,0 +1,101 @@
+.date {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background: linear-gradient(lightsteelblue, violet);
+}
+
+.asteroid {
+  background-color: rgba(219, 200, 255, 0.2);
+  width: 40%;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.subtitle {
+  font-family: "Audiowide", cursive;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.start {
+  display: flex;
+  justify-content: space-around;
+  margin: 7px 0px;
+  width: 40%;
+  font-family: "Audiowide", cursive;
+}
+.end {
+  display: flex;
+  justify-content: space-around;
+  margin: 7px 0px;
+  width: 40%;
+  font-family: "Audiowide", cursive;
+}
+
+.submit {
+  margin: 16px 0px;
+  background-color: white;
+  border-radius: 40%;
+  border-width: 1px;
+  padding: 8px;
+  background-color: lightsteelblue;
+  font-family: "Audiowide", cursive;
+}
+
+.note {
+  border-width: 2px;
+  background-color: lightsteelblue;
+  margin-bottom: 5px;
+}
+
+.image {
+  width: fit-content;
+  height: 500px;
+}
+
+.asteroid-name {
+  font-weight: bold;
+  background: lightsteelblue;
+  width: fit-content;
+  padding: 5px;
+}
+
+.container-note {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+}
+.asteroidsRendered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeIn linear 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}

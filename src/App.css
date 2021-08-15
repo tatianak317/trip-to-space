@@ -1,0 +1,36 @@
+.header {
+  position: absolute;
+  top: 0px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.links {
+  position: sticky;
+  top: 0;
+  display: flex;
+  width: 100%;
+  height: 6vh;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid black;
+  font-family: "Lato", bold;
+  font-size: 20px;
+  background-color: white;
+  text-decoration: none;
+  z-index: 100;
+}
+.links a {
+  text-decoration: none;
+}
+a:hover {
+  transition: 0.5s;
+  font-size: 30px;
+  text-shadow: 2px 4px lightsteelblue;
+}
+
+.title {
+  font-family: "Audiowide", cursive, bold;
+}

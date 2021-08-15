@@ -1,0 +1,68 @@
+#little_guy {
+  /* position: absolute; */
+  width: 10vh;
+  height: 10vh;
+  float: left;
+  margin: 40% 5% 5% 5%;
+  max-height: fit-content;
+}
+.platform {
+  width: 150px;
+  height: 30px;
+  /* margin: 70% 5% 5% 5%; */
+  border-radius: 60px;
+  opacity: 70%;
+  border: 2px solid black;
+}
+.menu {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: large;
+  font-weight: 100;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 10px;
+}
+
+#start {
+  border-radius: 60px;
+  width: 150px;
+  height: 30px;
+  margin-top: 10px;
+  font-size: large;
+  font-family: "Audiowide", cursive, bold;
+}
+
+canvas {
+  border: 5px solid black;
+}
+.body {
+  background: url(./images/rainbowBackground.jpg);
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  font-family: "Audiowide", cursive;
+  width: 100%;
+}
+.wrapper {
+  width: 2vh;
+  height: 2vh;
+}
+
+.score {
+  border-color: black;
+}
+#canvas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}

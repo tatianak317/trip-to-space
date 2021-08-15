@@ -1,0 +1,63 @@
+.loginScreenInitial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Audiowide", cursive, bold;
+  background: white;
+  width: 500px;
+  height: 300px;
+  border-radius: 20%;
+}
+
+.page {
+  background: linear-gradient(lightsteelblue, violet);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toggle {
+  border-radius: 50%;
+}
+
+.font {
+  font-family: "Audiowide", cursive, bold;
+}
+
+.submitAccount {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.fields {
+  border-color: dimgrey;
+}
+
+#submit {
+  margin: 16px 0px;
+  background-color: white;
+  border-radius: 40%;
+  border-width: 1px;
+  padding: 8px;
+  background-color: lightsteelblue;
+  font-family: "Audiowide", cursive;
+}
+
+label {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.loginScreenInitial a {
+  width: 70%;
+  text-align: center;
+}
+.accountPageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
